@@ -50,8 +50,16 @@ html{
 
 .info{
     width: 500px;
-    background: red;
-    display: flex;
-    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
     margin: 100px auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.info img{
+    width: 200px;
+    display: flex;
+    margin: 20px auto;
 }
