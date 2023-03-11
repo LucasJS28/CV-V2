@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.contenedorh{
+    background: #1e2326;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.contenedorh header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.contenedorh header .logo a{
+    font-family: 'Righteous';
+    font-size: 36px;
+    color: cyan;
+    text-decoration: none;
+}
+.contenedorh header ul{
+    display: flex;
+    list-style: none;
+}
+.contenedorh header nav ul li a{
+    text-align: none;
+    color: white;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+.contenedorh header nav ul li a:hover{
+    color: cyan;
+}
+
+.info{
+    width: 500px;
+    background: red;
+    display: flex;
+    align-items: center;
+    margin: 100px auto;
+}
